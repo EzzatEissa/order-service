@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order-service
+management:
+  endpoints:
+    web:
+      exposure.include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+  info:
+    git:
+      mode: full
+#server:
+#  port: 8081
